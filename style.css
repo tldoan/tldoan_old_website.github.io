@@ -1,0 +1,295 @@
+
+
+
+
+
+.column1 {
+  float: left;
+  width: 40%;
+  position:relative;
+  padding-left: -10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+
+.column2 {
+  float: left;
+  width: 45%;
+  position:relative;
+  padding-left: 0;
+  height: 250px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+
+
+
+ul {
+  
+  margin: 0; 
+  
+}
+
+
+
+
+nav {
+  border-bottom: 0.1px solid #494e52;
+  padding-top:8px;
+}
+nav li {
+  display: inline-block
+
+
+}
+
+nav li a {
+
+  display: block;
+  color: #555652;
+  text-align: center;
+  padding: 15px 18px;
+  font-size:18px;
+  
+  background-color:#f0f0f1;
+  padding-top:10px;
+ 
+ 
+
+}
+
+nav li a:hover {
+  background-color: #b3b3b3;
+ 
+}
+
+
+
+#avatar {
+  border-radius: 50%;
+  overflow: hidden;
+
+
+}
+
+.center {
+  display: block;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+ object-fit:cover;
+ max-width: 40%;
+  max-height: 40%;
+}
+
+
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+
+#test{
+  text-align: center;
+
+}
+
+
+
+.float-left-area  {
+      width: 20%;
+      float: left;
+
+      padding-top:20px;
+      
+      }
+
+.float-right-area {
+      width: 65%;
+      float: left;
+      padding-top:20px;
+      
+      }
+
+.inner-left   {
+
+      padding: 20px 0px 0px 0px;
+      margin-right: 0px;
+      
+      min-height: 60px;
+      font-size: 14px;
+      
+      }
+
+.inner-right    {
+      font-size: 18px;
+      padding: 20px 5px 5px 15px;
+     
+      min-height: 60px;
+     
+      }
+
+.clear-floated    { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+
+
+p.institution {
+  font-size: 16px;
+  padding-left: 30px;
+  line-height: 10px;
+
+}
+
+p.course {
+  
+
+  line-height: 15px;
+}
+
+#icon_side_bar{
+   padding-left: 50px;
+   padding-top: 10px;
+}
+
+li.test {
+  padding-top: 12px;
+}
+
+li.bullet {
+  padding-top: 15px;
+}
+
+p.sidebar{
+  font-size: 15px
+   padding-top: 25px;
+
+
+}
+
+body {
+  background-color: white;
+   font-family: -apple-system, 
+                BlinkMacSystemFont, 
+                "Segoe UI", 
+                Roboto, 
+                Oxygen-Sans, 
+                Ubuntu, 
+                Cantarell, 
+                "Helvetica Neue", 
+                sans-serif;
+    color:#494e52;
+}
+
+
+
+pre.line_numbers
+{
+  background-color:#FAFAFA;
+  font-size:16px;
+  overflow-x:auto;
+   width: 80%;
+  border: 0.1px solid #494e52;
+ 
+}
+
+
+div.indent{
+  text-indent: 40px;
+  line-height: 25px;
+
+}
+
+
+#SectionName,#SectionName2,#SectionName3 {
+  width: 100%;
+  
+   background-color:#FAFAFA;
+ 
+}
+
+#Hide,#Hide2,#Hide3{
+   display: none;
+     text-align: center;
+
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+#Show,#Show2,#Show3 {
+
+  text-align: center;
+
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.ntk_post {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 35%;
+  text-align: center
+}
+
+.cartoon_post {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-bottom:40px;
+  width: 50%;
+  height: 40%;
+  text-align: center
+}
+
+
+.img_side {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+ margin-top: 40px;
+margin-bottom: 40px;
+  padding-right: 40px;
+}
+
+.img_side2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 40px;
+   margin-bottom: 40px;
+  padding-right: 150px;
+}
+#images_side{
+   text-align:center;
+
+}
+
+
+
+
+
+a.button{
+  margin-right:100px;
+}
+
+
+#zoom:hover {
+  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
